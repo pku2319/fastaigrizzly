@@ -17,7 +17,7 @@ async function run() {
 function App() {
   useEffect(() => {
     run()
-  })
+  }, [])
 
   return (
     <div>
