@@ -16,6 +16,7 @@ async function run() {
 
 function App() {
   useEffect(() => {
+    console.log('should run')
     run()
   }, [])
 
